@@ -1,0 +1,14 @@
+{
+  "brand_new_limit": { "utilization": 99.0, "nested": { "value": [1, 2, 3] } },
+  "five_hour": {
+    "utilization": 40.0,
+    "resets_at": "2026-11-18T12:40:00.467036+00:00",
+    "new_field": "ignored"
+  },
+  "seven_day": {
+    "utilization": 50.0,
+    "resets_at": "2026-11-21T00:00:00.467065+00:00",
+    "limit_dollars": null
+  },
+  "limits": [{ "percent": 40 }]
+}

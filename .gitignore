@@ -1,0 +1,38 @@
+# macOS
+.DS_Store
+
+# Xcode user data and build output
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+.build/
+.swiftpm/
+*.xcresult
+*.xcarchive
+*.dSYM
+*.dSYM.zip
+*.app
+*.ipa
+
+# Signing material and credentials
+*.p8
+*.p12
+*.pem
+*.key
+*.cer
+*.certSigningRequest
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+.env
+.env.*
+
+# Local logs and diagnostics
+*.log
+*.trace
+
+# Local agent settings
+.claude/settings.local.json
+CLAUDE.local.md
